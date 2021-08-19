@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+text-align: center;
+font-size: 1.8rem;
+text-transform: capitalize;
+        }
+/*# sourceMappingURL=style.css.map */
+.row{
+  margin-bottom: 3%;
+}
+
+span{
+  display: block;
+  margin-top: 10px;
+}
+.container-fluid{
+  margin:5% auto;
+  max-width: 90%;
+  box-shadow: 2px 2px 30px lightgray;
+}
+
+.col:hover{
+  transition: 0.5s;
+  transform: scale(.9);
+}
